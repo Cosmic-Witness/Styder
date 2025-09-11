@@ -1,0 +1,68 @@
+character,scheme
+T,shift
+h,shift
+i,substitution
+s,xor
+ ,xor
+i,xor
+s,shift
+ ,reverse_bits
+a,shift
+ ,reverse_bits
+s,base64
+e,shift
+c,shift
+r,shift
+e,xor
+t,xor
+ ,reverse_bits
+m,reverse_bits
+e,shift
+s,reverse_bits
+s,xor
+a,reverse_bits
+g,base64
+e,xor
+ ,base64
+f,reverse_bits
+o,substitution
+r,shift
+ ,xor
+t,base64
+h,substitution
+e,substitution
+ ,xor
+m,xor
+a,substitution
+c,shift
+h,shift
+i,base64
+n,shift
+e,substitution
+ ,substitution
+l,reverse_bits
+e,substitution
+a,shift
+r,base64
+n,reverse_bits
+i,shift
+n,base64
+g,shift
+ ,reverse_bits
+m,substitution
+o,reverse_bits
+d,substitution
+e,reverse_bits
+l,xor
+ ,shift
+t,shift
+o,xor
+ ,substitution
+a,shift
+n,xor
+a,shift
+l,base64
+y,substitution
+z,base64
+e,substitution
+.,xor
