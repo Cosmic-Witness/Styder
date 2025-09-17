@@ -36,8 +36,9 @@ class Encryptor:
             log_data.append({'character': char, 'scheme': scheme_name})
 
         # Write ciphertext to file
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write("".join(ciphertext))
+        with open(output_path, 'a', encoding='utf-8') as f:
+            to_write = ("".join(ciphertext))
+            f.write(f"{to_write}\n")
 
         # Write log to CSV file
         with open(log_path, 'w', newline='', encoding='utf-8') as f:
