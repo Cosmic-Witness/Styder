@@ -1,5 +1,6 @@
 from src.encryptor import Encryptor
 from src.encryption_schemes import ENCRYPTION_SCHEMES
+import random
 
 def main():
     # --- Configuration ---
@@ -7,7 +8,7 @@ def main():
     plaintext = "This is a secret message for the machine learning model to analyze."
 
     # The fixed seed for the random number generator to ensure reproducibility
-    seed = 42
+    seed = random.randint(1,20)
 
     # Output file paths
     output_file = "output/encrypted_message.txt"
